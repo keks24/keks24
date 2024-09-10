@@ -1,0 +1,22 @@
+# configuration guide: https://www.mkdocs.org/user-guide/configuration/
+
+# project information
+site_name: "Profile"
+site_url: ""
+site_description: "Very profile, much wow."
+site_author: "Ramon Fischer"
+copyright: "2024 Ramon Fischer"
+
+repo_name: ""
+repo_url: ""
+edit_uri: ""
+
+# build directories
+## community themes: https://www.mkdocs.org/user-guide/styling-your-docs/
+theme: "readthedocs"
+docs_dir: "./docs"
+site_dir: "./site"
+
+# documenation layout
+nav:
+  - Home: "index.md"
