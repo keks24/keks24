@@ -4,7 +4,6 @@ FROM debian:12.7-slim AS builder
         apt-get install --no-install-recommends --assume-yes \
             mkdocs && \
         rm --recursive --force "/var/lib/apt/lists/"
-
     WORKDIR "/source/website/"
     COPY "./website/" "/source/website/"
     RUN mkdocs build
